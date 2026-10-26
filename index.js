@@ -6,7 +6,7 @@ const { Client } = require('pg');
 const app = express();
 const PORT = parseInt(process.env.PORT || '3000', 10);
 const SERVICE = 'qa-rw-express';
-const VERSION = 'v1';
+const VERSION = 'v2';
 const started = new Date().toISOString();
 
 function pgConfig(raw) {
